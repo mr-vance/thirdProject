@@ -1,8 +1,46 @@
+/* Navigation bar and menus */
 
-header nav{
+header nav {
     font-family: var(--fontFamily);
+    padding: 20px;
 }
 
-.hero-text-box{
-    font-family: var(--fontFamily); 
+.menu-links{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.menu-links a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* Hero section */
+
+.hero-text-box {
+    font-family: var(--fontFamily);
+    display: flex;
+    height: fit-content; 
+}
+
+/* Perform a media query here for flex behavior */
+
+.hero-text-box h1 {
+    font-weight: 200;
+}
+
+.profile-description {
+    width: 50%;
+}
+
+.profile-photo{
+    width: 40%;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
 }
