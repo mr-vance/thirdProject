@@ -23,7 +23,9 @@ This repository contains my submission for Assignment 3 - Project Portfolio. The
 
 ## Design Inspiration
 
-To create my project portfolio, I explored various design platforms like Behance, Dribbble, and Pinterest to find design inspirations. After careful consideration, I found a design that appealed to me and shared it with my supervisor for approval.
+To create my project portfolio, I explored various design platforms like Behance, Dribbble, and Pinterest to find design inspirations. After careful consideration, I found a design that appealed to me and shared it with my supervisor for approval. [Here's](https://www.figma.com/file/GweoDyXmAIZMv2o06MIiYQ/Portfolio-UI---Web-%26-Mobile-(Community)?node-id=6%3A52&mode=dev) the design I chose to go with.
+
+
 
 ## Implementation
 
