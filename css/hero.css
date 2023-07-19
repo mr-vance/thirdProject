@@ -1,0 +1,38 @@
+.hero-section {
+    background-color: aquamarine;
+    padding: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Hero section */
+
+.hero-text-box {
+    font-family: var(--fontFamily);
+    display: flex;
+    height: fit-content; 
+}
+
+/* Perform a media query here for flex behavior */
+
+.hero-text-box h1 {
+    font-weight: 200;
+}
+
+.profile-description {
+    width: 50%;
+}
+
+.profile-photo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
