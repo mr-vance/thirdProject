@@ -4,16 +4,15 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+    width: 100%;
 }
 
 .posts-description {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 250px;
+    margin-left: 250px;
     margin-top: 5px;
 }
 
