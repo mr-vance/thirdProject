@@ -1,0 +1,36 @@
+.projects-section {
+    background-color: rgb(243, 203, 231);
+    height: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.projects-section .title h3{
+    display: flex;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+.project {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 200px;    
+}
+
+.project-image {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:fit-content; /* the size of the div is the same as the size of the image */
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.project-description {
+
+}
