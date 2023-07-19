@@ -1,0 +1,28 @@
+.posts-section {
+    background-color:rgb(236, 165, 165);
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.posts-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.post-cards {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+}

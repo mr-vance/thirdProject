@@ -1,3 +1,7 @@
+/* import reset css first */
+@import url("css/reset.css");
+
+/* then everyone else... */
 @import url("css/footer.css");
 @import url("css/header.css");
 @import url("css/hero.css");
@@ -5,3 +9,9 @@
 @import url("css/posts.css");
 @import url("css/works.css");
 @import url("css/variables.css");
+@import url("css/button.css");
+
+h1,h2,h3,p,a {
+    font-family: var(--fontFamily);
+    color: var(--fontColor);
+}

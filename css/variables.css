@@ -1,3 +1,4 @@
 :root{
-    --fontFamily: sans-serif;
+    --fontFamily: 'Inter', sans-serif;
+    --fontColor: #212427;
 }

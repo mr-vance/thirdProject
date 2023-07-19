@@ -1,19 +1,15 @@
 .hero-section {
     background-color: aquamarine;
-    padding: 30px;
+    padding: 50px;
     margin-right: 100px;
     margin-left: 100px;
 }
 
-/* Hero section */
 
 .hero-text-box {
-    font-family: var(--fontFamily);
     display: flex;
     height: fit-content; 
 }
-
-/* Perform a media query here for flex behavior */
 
 .hero-text-box h1 {
     font-weight: 200;
@@ -21,6 +17,10 @@
 
 .profile-description {
     width: 50%;
+}
+
+.profile-description p {
+    padding: 10px;
 }
 
 .profile-photo{
