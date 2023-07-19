@@ -19,7 +19,7 @@
 .project-image {
     padding-top: 20px;
     padding-bottom: 10px;
-    width:fit-content; /* the size of the div is the same as the size of the image */
+    width:fit-content;
     justify-content: center;
     align-items: center;
 }
@@ -59,4 +59,8 @@
     border-radius: 15px;
     font-weight: bold;
     font-size: 12px;
+}
+
+hr {
+
 }
