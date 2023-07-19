@@ -11,6 +11,7 @@
 @import url("css/variables.css");
 @import url("css/button.css");
 
+/* i don't know why i'm commenting on this */
 h1,h2,h3,p,a {
     font-family: var(--fontFamily);
     color: var(--fontColor);

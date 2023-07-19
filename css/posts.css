@@ -16,13 +16,23 @@
     margin-left: 150px;
 }
 
+.more-posts a {
+    text-decoration: none;
+    color: rgb(55, 55, 221);
+}
+
 .post-cards {
     margin-right: 150px;
     margin-left: 150px;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .card {
     padding: 20px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
 }
