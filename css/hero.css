@@ -31,13 +31,13 @@
 
 
 .profile-photo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 button {
-    background-color: #fc6c64; /* Green */
+    background-color: #fc6c64;
     border: none;
     color: white;
     padding: 15px 32px;
