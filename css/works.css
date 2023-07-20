@@ -63,5 +63,8 @@
 }
 
 hr {
-    width: 300px;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 200px; 
+    
 }
