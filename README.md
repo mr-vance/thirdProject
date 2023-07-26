@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="images/oh-yeah.png" alt="got-it-mate" style="width: 150px; height: 100px;">
+  <img src="images/oh-yeah.webp" alt="got-it-mate" style="width: 150px; height: 100px;">
 </p>
 
 
