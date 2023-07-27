@@ -1,16 +1,50 @@
-/* Navigation bar and menus */
-
 header nav {
     padding: 20px;
 }
 
-.menu-links{
+.menu-links {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 .menu-links a {
     font-size: 20px;
     text-decoration: none;
     margin-right: 20px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.toogle {
+    display: none;
+}
+
+/*Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .menu-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block; 
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .toogle {
+        display: none;
+    }
+
+    #menu-toggle:checked + nav .menu-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        top: 60px;
+        right: 20px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
 }

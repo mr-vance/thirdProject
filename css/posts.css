@@ -40,3 +40,12 @@
     text-decoration: none;
     color: rgb(55, 55, 221);
 }
+
+
+@media (max-width: 768px) {
+    .posts-description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

@@ -15,7 +15,7 @@
 }
 
 .profile-description {
-    width: 50%;
+    width: auto;
 }
 
 .profile-description p {
@@ -23,7 +23,7 @@
 }
 
 .profile-photo{
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,4 +47,22 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+
+/*Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    
+    .hero-section {
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .hero-text-box {
+        display: flex;
+        flex-direction: column; 
+    }
+
+
 }
